@@ -17,7 +17,40 @@ paint_corner(BLUE)
 """
 
 def main():
-    """Karel code goes here!"""
+   move()
+   move()
+   turn_left()
+   move()
+   move()
+   paint_corner(BLUE)
+   move()
+   move()
+   move()
+   paint_corner(BLUE)
+   turn_left()
+   turn_left()
+   turn_left()
+   move()
+   move()
+   move()
+   paint_corner(BLUE)
+   turn_left()
+   turn_left()
+   turn_left()
+   move()
+   move()
+   move()
+   paint_corner(BLUE)
+   move()
+   turn_left()
+   turn_left()
+   turn_left()
+   move()
+   paint_corner(BLUE)
+   move()
+   paint_corner(BLUE)
+   
+   
 
 
 if __name__ == "__main__":
