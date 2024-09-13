@@ -31,7 +31,7 @@ def pick_two_beepers():
     pick_beeper()
     pick_beeper()
     
-def turn_left_three():
+def turn_left_three_times():
     turn_left()
     turn_left()
     turn_left()
@@ -40,12 +40,6 @@ def turn_left_move_two_steps():
     turn_left()
     move_two_steps()
     
-
-def put_beeper_turn_left_three_move_once():
-    put_beeper()
-    turn_left_three()
-    move()
-
 def main():
     move_four_steps()
     turn_left_move_two_steps()
@@ -63,24 +57,24 @@ def main():
     put_beeper()
     move()
     put_beeper()
-    turn_left_three()
+    turn_left_three_times()
     move()
     put_beeper()
-    turn_left_three()
+    turn_left_three_times()
     move()
     put_beeper()
     turn_left_move_two_steps()
     turn_left_move_two_steps()
     pick_beeper()
-    turn_left_three()
+    turn_left_three_times()
     move_two_steps()
     put_beeper()
     move()
     put_beeper()
-    turn_left_three()
+    turn_left_three_times()
     move()
     put_beeper()
-    turn_left_three()
+    turn_left_three_times()
     move()
     put_beeper()
    

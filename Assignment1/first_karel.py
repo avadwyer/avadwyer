@@ -15,7 +15,7 @@ def turn_right():
     turn_left()
     turn_left()
     
-def double_move():
+def move_two_steps():
     move()
     move()
     
@@ -25,10 +25,10 @@ def main():
     pick_beeper()
     move()
     turn_right()
-    double_move()
+    move_two_steps()
     pick_beeper()
     turn_right()
-    double_move()
+    move_two_steps()
     pick_beeper()
     
     
